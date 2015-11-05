@@ -1,0 +1,154 @@
+html,body{
+    height:100%;
+    width:100%;
+    
+    margin:0;
+    padding:0;
+    
+    font-size:1rem;
+    
+    background-color: aqua;
+}
+
+#container{
+    display:flex;
+    
+    background-color: #ad80f5;
+    
+    height:50%;
+    width:100%;
+    margin:2rem;
+   flex-direction:row;
+}
+
+div{
+    margin:2rem;
+    
+    height:85%;
+    width:100%;
+    
+    background-color: #ffffff;
+    
+    border: 1px solid black;
+    
+    display:flex;
+    
+    flex-direction:column;
+    
+}
+
+#one{
+    height:3em;
+    width:3em;
+    
+    background-color: black;
+    
+    
+}
+
+#two{
+    height:3em;
+    width:3em;
+    
+    background-color: black;
+    
+    align-self:center;
+}
+
+#three{
+    height:3em;
+    width:3em;
+    
+    background-color: black;
+    
+    align-self:flex-end;
+}
+.section{
+    display:flex;
+    margin:2rem;
+    background-color:yellowgreen;
+    height:50%;
+    width:100%;
+    
+    
+    
+   flex-direction:row;
+}
+.two{
+    display:flex;
+    justify-content:center;
+}
+#two_1{
+    align-self:center;
+    height:3em;
+    width:3em;
+    content:" ";
+    background-color:black;
+}
+.one{
+    display:flex;
+    justify-content:center;
+}
+#one_1{
+    align-self:flex-start;
+    height:3em;
+    width:3em;
+    content:" ";
+    background-color:black;
+}
+.three{
+    display:flex;
+    justify-content:center;
+}
+#three_1{
+    align-self:flex-end;
+    height:3em;
+    width:3em;
+    content:" ";
+    background-color:black;
+}
+
+.section-section{
+    display:flex;
+    margin:2rem;
+    background-color:coral;
+    height:50%;
+    width:100%;
+    
+    
+    
+   flex-direction:row;
+}
+.two-two{
+    display:flex;
+    justify-content:flex-end;
+}
+#two_2{
+    align-self:center;
+    height:3em;
+    width:3em;
+    content:" ";
+    background-color:black;
+}
+.one-two{
+    display:flex;
+    justify-content:flex-end;
+}
+#one_2{
+    align-self:flex-start;
+    height:3em;
+    width:3em;
+    content:" ";
+    background-color:black;
+}
+.three-two{
+    display:flex;
+    justify-content:flex-end;
+}
+#three_2{
+    align-self:flex-end;
+    height:3em;
+    width:3em;
+    content:" ";
+    background-color:black;
+}
